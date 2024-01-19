@@ -469,9 +469,8 @@ impl fmt::Debug for VmState {
 pub(crate) mod tests {
 
     #[cfg(target_arch = "x86_64")]
-    use snapshot::Snapshot;
-
     use super::*;
+    use crate::snapshot::Snapshot;
     use crate::vstate::memory::{GuestAddress, GuestMemoryExtension, GuestMemoryMmap};
 
     // Auxiliary function being used throughout the tests.

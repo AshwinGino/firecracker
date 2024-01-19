@@ -122,7 +122,7 @@ The baselines can be found in their [respective config file](../../tests/integra
 The snapshot functionality is still in developer preview due to the following:
 
 - Poor entropy and replayable randomness when resuming multiple microvms from
-  the same snapshot. We do not recommend to use snapshotting in production if
+  the same snapshot. We do not recommend to use crate::snapshotting in production if
   there is no mechanism to guarantee proper secrecy and uniqueness between
   guests.
   Please see [Snapshot security and uniqueness](#snapshot-security-and-uniqueness).
